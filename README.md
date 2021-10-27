@@ -7,15 +7,15 @@ Um projeto como esse tem um importante impacto positivo na produção e nas fina
 O presente documento apresenta o script em linguagem de programação, demonstrando as etapas e desenvolvimento do modelo de machine learning. A documentação com comentários detalhados expondo o passo a passo e as tomadas de decisões na construção de cada código e por cada função estará disponível na plataforma Medium, através do link https://br-cienciadedados.medium.com/ .
 
 Para se aplicar o modelo, os seguintes dados são necessários na respectiva ordem:
-1 - Vaga para qual se está aplicando
-2 - Sexo
-3 - Estado civil
-4 - Motivo de saída da última empresa
-5 - Fonte de inscrição para a vaga
-6 - Pretensão salarial
-7 - Projetos apresentados na empresa anterior
-8 - Idade
-9 - Meses ou anos de trabalho na última empresa
+1 - Vaga para qual se está aplicando;
+2 - Sexo;
+3 - Estado civil;
+4 - Motivo de saída da última empresa;
+5 - Fonte de inscrição para a vaga;
+6 - Pretensão salarial;
+7 - Projetos apresentados na empresa anterior;
+8 - Idade;
+9 - Meses ou anos de trabalho na última empresa;
 
 Após a obtenção dos dados, o método do OneHotEncoder é aplicado sobre as variáveis categóricas e a padronização é aplicada sobre todos os dados.
 Por fim, o modelo de machine learning é aplicado.
