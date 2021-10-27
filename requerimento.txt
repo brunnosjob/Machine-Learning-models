@@ -1,4 +1,5 @@
 # brew update && brew install gcc (this includes gfortran)
+pip install sklearn
 ipython[all]>=3.2.0
 pyzmq>=14.7.0
 Pillow>=2.9.0
