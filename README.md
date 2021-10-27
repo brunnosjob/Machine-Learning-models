@@ -1,5 +1,5 @@
 # Machine-Learning-rh-preselecao
-Esse é um repositório em que deposito scripts do projeto de machine learning que desenvolvi com o objetivo de auxiliar o processo seletivo a vaga de emprego de uma determinada empresa.
+Esse é um repositório em que deposito scripts e notebooks do projeto de machine learning que desenvolvi com o objetivo de auxiliar o processo seletivo a vaga de emprego de uma determinada empresa.
 Em termos mais específicos, o modelo tem como objetivo classificar quais candidatos às vagas de emprego de uma dada empresa ficarão ao menos 2 anos na empresa. Dessa forma, o time de RH responsável pelo processo seletivo pode filtrar e reduzir os custos do processo e otimizar a eficiência de seleção de candidatos apropriados.
 
 Um projeto como esse tem um importante impacto positivo na produção e nas finanças de uma empresa, haja visto que, quando a rotatividade de admissão e demissão é alta no curto espaço de tempo, o entrosamento e a continuidade dos objetivos da produção sofrem impactos negativos, afetando o financeiro, além dos custos do processo de admissão e demissão.
