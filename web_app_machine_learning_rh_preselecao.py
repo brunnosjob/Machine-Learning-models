@@ -19,6 +19,8 @@ import numpy as np
 import pandas as pd
 import pickle
 
+st.markdown('*__Observação: para mais informações, clique na seta no canto esquerdo superior da tela__* ')
+
 st.sidebar.title('Projeto de portfólio de Ciência de Dados')
 st.sidebar.markdown('Feito por : Bruno Rodrigues Carloto')
 st.sidebar.markdown("Redes Sociais :")
