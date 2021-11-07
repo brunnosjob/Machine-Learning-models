@@ -46,10 +46,10 @@ motivo_saida = st.selectbox('Selecione o motivo de saída da empresa anterior', 
                                                                                 'Proposta do Concorrente'])
 fonte_recrutamento = st.selectbox('Selecione a fonte de inscrição para a vaga', ['Feira de Contratação', 'Indicação Funcionários',
                                                                         'Site da Empresa', 'Site de Vagas'])
-salario = st.number_input('Informe a pretensão salarial', 0, 5000, 0)
+salario = st.number_input('Informe a pretensão salarial', 0.0, 5000.0, 0.0)
 projetos = st.number_input('informe a quantidade de projetos apresentada na empresa anterior', 0, 20, 0)
 idade = st.number_input('Informe a idade', 0, 70, 0)
-tempo_empresa = st.number_input('Informe o tempo de serviço na empresa anterior', 0, 60, 0)
+tempo_empresa = st.slider('Informe o tempo de serviço na empresa anterior', 0, 20, 0)
 
 #Criando variável com dados do candidato
 #Retornando os dados
