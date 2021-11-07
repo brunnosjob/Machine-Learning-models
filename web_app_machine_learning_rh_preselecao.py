@@ -38,7 +38,7 @@ st.write("O modelo tem como objetivo classificar para a próxima fase do process
 #Criando variáveis 
 candidato =  st.text_input('Digite o nome do candidato:')
 cargo = st.selectbox('Vagas disponíveis', ['Analista Comercial I', 'Analista de Dados I', 'Auxiliar de Suporte de TI',
-                                            'Contador I', 'Gerente Comercial', 'Gerente de BI'])
+                                            'Contador I', 'Gerente Comercial', 'Gerente de BI', 'Técnico de Produção I', 'Técnico de Produção II'])
 sexo = st.selectbox('Selecione o sexo', ['M', 'F'])
 estado_civil = st.selectbox('Selecione o estado civil', ['Casado(a)', 'Solteiro'])
 motivo_saida = st.selectbox('Selecione o motivo de saída da empresa anterior', ['Abandono', 'Excesso de Faltas', 'Infeliz', 'Mal comportamento',
