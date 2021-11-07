@@ -19,9 +19,16 @@ import numpy as np
 import pandas as pd
 import pickle
 
+st.sidebar.title('Projeto de portfólio de Ciência de Dados')
+st.sidebar.markdown('Feito por : Bruno Rodrigues Carloto')
+st.sidebar.markdown("Redes Sociais :")
+st.sidebar.markdown("- [Linkedin](https://www.linkedin.com/in/bruno-rodrigues-carloto)")
+st.sidebar.markdown("- [Medium](https://br-cienciadedados.medium.com)")
+st.sidebar.markdown("- [Github](https://github.com/brunnosjob)")
+
 #Cabeçalho
-st.header('Machine Learning para o RH')
-st.subheader('Modelo de machine learning classificador para uso de pré-seleção a vaga de emprego')
+st.title('Machine Learning para o RH')
+st.markdown('#### Modelo de machine learning classificador para uso em pré-seleção a vaga de emprego')
 
 #Título
 st.write("O modelo tem como objetivo classificar para a próxima fase do processo seletivo somente os candidatos que ficarão ao menos dois anos na empresa")
